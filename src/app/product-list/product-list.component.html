@@ -1,0 +1,8 @@
+<h1>Product Catalog</h1>
+
+<div class="list">
+    <!-- product list -->
+     @for (i of products; track i.id) {
+        <app-product-card [item]="i"></app-product-card>       
+     }
+</div>
